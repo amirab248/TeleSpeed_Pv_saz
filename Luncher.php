@@ -164,21 +164,6 @@ $pmembersid= explode("\n",$txxt);
 <b>ver. 3.0</b>
 <code>Coded By</code> @nawr_i_man
 Copy Right 2016©","parse_mode"=>"html"));
-
-
-    
-    }else if ($matches[0] == "/sendtoall"&& $chat_id == 69367395) {
-      
-      $sendtotext = str_replace("/sendtoall","",$text);
-      $txtt = file_get_contents('members.txt');
-      $banid= explode("\n",$txtt);
-
-		for($y=0;$y<count($banid);$y++)
-      {
-        apiRequest("sendMessage", array('chat_id' => $banid[$y], "text" => $sendtotext));
-      }
-          apiRequest("sendMessage", array('chat_id' => 69367395, "text" => "Sent To ".count($banid)." Members"));
-
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")) {
       
