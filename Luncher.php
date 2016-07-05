@@ -141,7 +141,7 @@ $pmembersid= explode("\n",$txxt);
 ";
     	file_put_contents('pmembers.txt',$aaddd);
 }
-        if($chat_id == 69367395)
+        if($chat_id == 121311764)
         {
           if(!file_exists('tokens.txt')){
         file_put_contents('tokens.txt',"");
@@ -185,7 +185,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات 
 
     }
     }
-    else if ($matches[0] != "/update"&& $matches[1]==""&&$chat_id != 69367395) {
+    else if ($matches[0] != "/update"&& $matches[1]==""&&$chat_id != 121311764) {
       if (strpos($text, ":")) {
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال برسی 🔃"));
     $url = "http://api.telegram.org/bot".$matches[0]."/getme";
@@ -267,7 +267,7 @@ else{
 
 }
 
-        }else if ($matches[0] != "/update"&&$matches[1] != ""&&$matches[2] != ""&&$chat_id == 69367395) {
+        }else if ($matches[0] != "/update"&&$matches[1] != ""&&$matches[2] != ""&&$chat_id == 121311764) {
           
         if (strpos($text, ":")) {
           
