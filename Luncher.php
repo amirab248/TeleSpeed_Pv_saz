@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '246879095:AAFAIylbQeUJNkPB5eLYWldXOUHwCW57KcM');
+define('BOT_TOKEN', '258709960:AAFcgMzZeJ2KMF9TaKZ3TIW4O5k5K36hZ_E');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -156,7 +156,7 @@ $pmembersid= explode("\n",$txxt);
     }else if ($text == "Version") {
       apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>PvResan</b>
 <b>ver. 3.0</b>
-<code>Coded By</code> @nawr_i_man
+<code>Coded By</code> @arshiahp
 Copy Right 2016©","parse_mode"=>"html"));
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")) {
@@ -254,7 +254,7 @@ $output = curl_exec($ch);
 🔸ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @nawr_i_man_bot"));
+🚀 @arshiahp"));
       }
     }
       
@@ -331,7 +331,7 @@ $output = curl_exec($ch);
 🔸ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @nawr_i_man_bot"));
+🚀 @arshiahp"));
       }
 
     }
