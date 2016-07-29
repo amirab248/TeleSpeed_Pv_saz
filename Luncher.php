@@ -222,7 +222,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
  https://telegram.me/storebot?start=pvresanbot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot244848409:AAELTYFhw7389YwaUS4LgznVfBOTBjzPELE/"; 
+    $bot_url    = "https://api.telegram.org/bot254319172:AAFKfsiMnOqxXqpOMH5cCxMIPoZr09qOsv0/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -304,7 +304,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
 برای ورود به ربات خود کلیک کنید 👇😃
 ";
     
-    $bot_url    = "https://api.telegram.org/bot244848409:AAELTYFhw7389YwaUS4LgznVfBOTBjzPELE/"; 
+    $bot_url    = "https://api.telegram.org/bot254319172:AAFKfsiMnOqxXqpOMH5cCxMIPoZr09qOsv0/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
